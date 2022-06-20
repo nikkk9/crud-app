@@ -1,0 +1,45 @@
+.modal {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(223, 223, 223);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal .submitBtn {
+  background-color: rgb(1, 190, 1);
+}
+.modal .closeBtn {
+  background-color: rgb(240, 13, 13);
+}
+.modal button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.1rem;
+  color: aliceblue;
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+.modal button:hover {
+  transform: scale(1.05);
+  transition: 0.7s all;
+}
+.modalContainer {
+  width: 30%;
+}
+.modalContainer .inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.modalContainer .inputContainer input {
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  width: 100%;
+  border-radius: 0.2rem;
+  border: 1px solid gray;
+  outline: none;
+}
